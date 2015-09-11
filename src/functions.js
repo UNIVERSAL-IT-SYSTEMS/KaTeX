@@ -496,6 +496,7 @@ var duplicatedFunctions = [
         ],
         data: {
             numArgs: 1,
+            greediness: 2,
             handler: function (func, body) {
                 if (func in fontAliases) {
                     func = fontAliases[func];
